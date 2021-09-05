@@ -1,42 +1,56 @@
-# Hello Node!
+# Hello fellow visitor!
 
-This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
+**I have absolutely no idea how you got here, or why you got here,**
+**but I guess it's maybe for information about the page... Oh well, let's get started!**
 
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
+--> `LICENSE.MD`
 
-## Prerequisites
+- That's the copyright license and stuff. It's a MIT License if you were wondering.
 
-You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
+--> `TODO.md`
 
-## What's in this project?
+- Man... it's just there okay? I don't know what to do with it. Maybe some day there'll be something, keep your eyes peeled!
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
+--> `.gitignore`
 
-← `public/style.css`: The styling rules for the pages in your site.
+- It does absolutely nothing at the moment, and I don't think it ever will.
 
-← `server.js`: The **Node.js** server script for your new site. The JavaScript defines the endpoints in the site back-end, one to return the homepage and one to update with the submitted color. Each one sends data to a Handlebars template which builds these parameter values into the web page the visitor sees.
+--> `README.md`
 
-← `package.json`: The NPM packages for your project's dependencies.
+- There's a person reading it... most likely you.
 
-← `src/`: This folder holds the site template along with some basic data files.
+--> `index.html`
 
-← `src/pages/index.hbs`: This is the main page template for your site. The template receives parameters from the server script, which it includes in the page HTML. The page sends the user submitted color value in the body of a request, or as a query parameter to choose a random color.
+- Hey look, something useful.
 
-← `src/colors.json`: A collection of CSS color names. We use this in the server script to pick a random color, and to match searches against color names.
+--> `index.css`
 
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
+- I just called it that way, oh well, it's the styling for the main page. Ye happeh?
 
-## Try this next 🏗️
+--> `script.js`
 
-Take a look in `TODO.md` for next steps you can try out in your new site!
+- Javascript, something I'm still learning (actually I'm learning all 3 HTML, CSS and JS).
 
-___Want a minimal version of this project to build your own Node.js app? Check out [Blank Node](https://glitch.com/edit/#!/remix/glitch-blank-node)!___
+<--- `./mystuff/...` --->
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+--> `index.html`
 
-## You built this with Glitch!
+- Self explanatory I believe (it's just the old page but revamped).
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+--> `mystuff.css`
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+- Yeah... the styles... right?
+
+--> `mystuff.js`
+
+- Wow, such empty!
+
+<--- `./bootstrap` --->
+
+--> `literally everything in there`
+
+- Bootstrap, JQuery and Popper libraries.
+
+__Would you look at that! That's all for now, if you have anything to tell me, DM me on **Discord** which is `Zhai_#9998`. See ya there!__
+
+## END

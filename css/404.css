@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/** Essential Crap **/
+
+* {
+  font-family: "Press Start 2P", "Source Code Pro", verdana, sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: teal;
+}
+
+*:link,
+*:visited,
+#specialthanks {
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  color: cornflowerblue;
+  text-shadow: 1px 1px 0px rgb(86, 86, 104);
+}
+
+a {
+  transition: all 0.5s;
+}
+
+a:hover {
+  transform: translateY(-2px);
+}
+
+header {
+  background-color: aquamarine;
+  height: 500px;
+  clip-path: polygon(
+    0 89%,
+    0 0,
+    35% 0%,
+    65% 0%,
+    100% 0,
+    100% 89%,
+    91% 88%,
+    75% 100%,
+    62% 88%,
+    38% 88%,
+    25% 100%,
+    9% 89%
+  );
+}
+/** Buttons **/
+#mystuffbutton {
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 3px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    height: 50px;
+    text-shadow: 2px 2px 0px black;
+    font-size: 17px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 4px;
+  }
+
+  #mystuffbutton:hover {
+  color: #001f3f;
+  background-color: #fff;
+  text-shadow: 2px 2px 0px gray;
+}
+
+
+/** Custom Scrollbar **/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 174, 255);
+    transition: all 0.5s;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(14, 124, 175);
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+
+html body {
+ background-color: aquamarine;
+}
+
+/** Body **/
+
+body h1#404 {
+    margin-top: 50px!important;
+}
+
+i.fa-exclamation-triangle {
+    color: yellow;
+}
+
+/** Footer **/
+
+footer,
+hr {
+  background-color: slategray;
+  color: silver;
+  text-shadow: 2px 2px 0px rgb(139, 139, 139);
+  border-top: 7px solid darkslategray;
+}
