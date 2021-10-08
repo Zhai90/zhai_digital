@@ -588,11 +588,14 @@ h3#introductionion2 {
   #contacts {
     height: 650px;
   }
+  #projects {
+    height: 1200px;
+  }
 }
 /** Small Devices **/
 @media (min-width: 576px) and (max-width: 767px) {
   #projects {
-    height: 1350px;
+    height: 1750px;
   }
 
   #scrollToTopBtn {
@@ -629,7 +632,7 @@ h3#introductionion2 {
   }
 
   #projects {
-    height: 1300px;
+    height: 1800px;
   }
 
   #myprojectstitle {
